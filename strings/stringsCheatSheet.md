@@ -50,6 +50,7 @@ strcpy(str1,str2);
 // str1 in memory after copying: | B | l | a | c | k | \0 | s | \0 |
 
 ```
+#### Cheat: str(action you want to perform shortened to three letters)
 - **strcmp(s,t)** - compare strings s and t and return first difference. i.e:
     1. s > t : positive number
     2. s == t : zero
@@ -93,6 +94,47 @@ int main(){
 }
 
 ```
+
+## C++
+_________
+
+### std::string class
+
+- append() 	Appends a string to the end of the current string.
+- assign() 	Fills the string with a given value.
+- at() 	Returns a reference to the character at the given index.
+- begin() 	Returns an iterator to the first element of the string.
+- c_str() 	Returns a pointer to an array of characters that represent the current string.
+- capacity() 	Returns the number of allocated positions in the string.
+- clear() 	Removes all the characters from the string.
+- compare() 	Compares two strings. Retuns 0 if this < str; 0 if this == str; >0 if this > str.
+- copy() 	Copies a number of positions of the string into an array of characters.
+- data() 	Returns a pointer to the first character in a string.
+- empty() 	Returns true if the string is empty.
+- end() 	Returns an iterator to the position just after the last element of the string.
+- erase() 	Erases a set of characters from the string.
+- find() 	Finds a set of characters in a string.
+- find_first_not_of() 	Finds the first occurence of the absence of a set of characters in the string.
+- find_first_of() 	Finds the first occurence of a set of characters in the string.
+- find_last_not_of() 	Finds the last occurence of the absence of a set of characters in the string.
+- find_last_of() 	Finds the last occurence of a set of characters in the string.
+- getline() 	Reads a line from standard input and saves it in a string.
+- insert() 	Inserts a character or a set o characters from a given position in a string.
+- length() 	Returns the number of elements in the string.
+- max_size() 	Returns the maximum number of elements a vector can hold.
+- push_back() 	Inserts a character at the end of the string.
+- rbegin() 	Returns a reverse iterator to the end of the string.
+- rend() 	Returns a reverse iterator to the begining of the string.
+- replace() 	Replaces a set of positions in the string with a given value.
+- reserve() 	Sets the minimum capacity of the string.
+- resize() 	Alters the size of the string and initiates new positions.
+- rfind() 	Searches the string in reverse order for the first occurence of a string.
+- size() 	Returns the number of elements in the string.
+- substr() 	Returns a substring of the string starting at a given index and with a given size.
+- swap() 	Substitutes the elements of the string with the elements of another string.
+
+
+
 
 ### References
 
